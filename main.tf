@@ -37,6 +37,7 @@ variable slaccountnum {
   description = "Your Softlayer account number."
 }
 variable datacenter {
+  default = "dal01"
   description = "The datacenter to create resources in."
 }
 variable public_key {
